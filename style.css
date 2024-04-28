@@ -1,0 +1,213 @@
+body {
+  overflow-x: hidden;
+}
+body header {
+  max-width: 100%;
+  height: 15vh;
+  padding: 1rem;
+}
+body header .container {
+  display: flex;
+  max-width: 100%;
+  height: 10vh;
+  border-radius: 20px;
+  background: #000;
+}
+body header .container .logo {
+  padding: 12px 350px;
+}
+body header .container .logo2 {
+  padding: 12px 0;
+  margin-left: -5rem;
+}
+body header .container .navbar {
+  width: 40%;
+  margin-left: -20rem;
+  display: flex;
+}
+body header .container .navbar .list {
+  padding: 5px 0;
+  width: 80%;
+  list-style: none;
+  font-family: sans-serif;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+body header .container .navbar .list .list_item {
+  padding: 3px 45px;
+  border-right: 1px solid #737373;
+  cursor: pointer;
+}
+body header .container .navbar .list .end_item {
+  border-right: none;
+}
+body .main {
+  max-width: 100%;
+  height: auto;
+}
+body .main .hero_page {
+  max-width: 100%;
+  height: 102vh;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+body .main .hero_page .container {
+  max-width: 100%;
+  height: 100%;
+  background: #FFF7ED;
+}
+body .main .hero_page .container .row .col {
+  height: 40vh;
+  margin: 10px;
+  border-radius: 30px;
+  background: white;
+  text-align: center;
+}
+body .main .hero_page .container .row .col .img {
+  max-width: 5rem;
+  margin-left: 6.5rem;
+  padding-top: 1rem;
+}
+body .main .hero_page .container .row .col .img img {
+  width: 100%;
+}
+body .main .about_page {
+  max-width: 100%;
+  height: 110vh;
+  background: rgb(239, 239, 253);
+}
+body .main .about_page .text-center {
+  padding-top: 1rem;
+}
+body .main .about_page .text-center h1 {
+  font-size: 2.4rem;
+  word-spacing: 10px;
+  width: 35%;
+  margin-left: 27.5rem;
+}
+body .main .about_page .text-center h1 span {
+  color: rgb(249, 112, 104);
+}
+body .main .about_page .row .col1 .second_list .list_item {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid orange;
+}
+body .main .about_page .row .col1 .second_list .list_item b {
+  padding-left: 1rem;
+}
+body .main .about_page .row .col2 img {
+  width: 30rem;
+  height: 72vh;
+  margin-left: 5rem;
+  border-radius: 20px;
+}
+body .main .about_page .bottom button {
+  padding: 1rem 3rem;
+  border: none;
+  background: #F97068;
+  color: white;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+body .main .result_page {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+body .main .result_page .text-center h2 {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+body .main .result_page .text-center h2 b {
+  position: absolute;
+  margin-left: 43%;
+  display: block;
+  background: #FFE1DF;
+  padding: 0 1rem;
+  color: rgb(255, 103, 103);
+}
+body .main .result_page .container .card {
+  display: flex;
+  height: 50vh;
+  margin-top: 6rem;
+  background: #EFEFFD;
+  border: none;
+  border-radius: 50px;
+}
+body .main .result_page .container .card .img img {
+  display: flex;
+  width: 15%;
+  margin-left: -5rem;
+}
+body .main .result_page .container .card .text_box {
+  width: 85%;
+  height: 100%;
+  padding-right: 1rem;
+  margin-left: 15%;
+  margin-top: -15.5%;
+}
+body .main .result_page .container .card .text_box p {
+  line-height: 35px;
+  font-size: 1.1rem;
+}
+body .main .result_page .container .card .text_box .avtor {
+  margin-top: 2.5rem;
+}
+body .main .result_page .container .card .text_box .avtor .span {
+  font-size: 1.2rem;
+  color: blue;
+}
+body .main .result_page .container .variants {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  height: 15vh;
+  gap: 15px;
+}
+body .main .result_page .container .variants img {
+  width: 3rem;
+  padding: 0.1rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+body .main .result_page .container .variants img:nth-child(2) {
+  border: 1px solid blue;
+}
+body .footer {
+  width: 100%;
+  height: 50vh;
+  border: 1px solid blue;
+  background: #1F1F1F;
+  padding: 1rem 3rem;
+  padding-top: 5rem;
+}
+body .footer .row .col p {
+  color: white;
+}
+body .footer .row .col .programs {
+  cursor: pointer;
+}
+body .footer .row .col span {
+  display: block;
+  color: grey;
+}
+body .footer .row .col .footer_list {
+  color: white;
+  list-style-type: none;
+  text-transform: capitalize;
+  line-height: 45px;
+}
+body .footer .row .col .footer_list b {
+  display: block;
+}
+body .footer .row .col .footer_list2 {
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
